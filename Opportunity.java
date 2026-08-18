@@ -9,7 +9,7 @@ public class Opportunity {
     private String description;
     private String stipend;
     private String deadline;
-    private String applyLink;
+    private String applyLink;//
 
     public int getOpportunityId() { return opportunityId; }
     public void setOpportunityId(int opportunityId) { this.opportunityId = opportunityId; }
