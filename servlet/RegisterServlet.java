@@ -54,7 +54,7 @@ public class RegisterServlet extends BaseServlet {
             user.setDepartment(req.getParameter("department"));
             // instructors wait for an admin, students are active right away
             user.setStatus(Constants.ROLE_INSTRUCTOR.equals(role)
-                    ? Constants.STATUS_PENDING : Constants.STATUS_ACTIVE);
+                    ? Constants.STATUS_PENDING : Constants.STATUS_ACTIVE);  // 
 
             if (userDAO.insert(user)) {
                 sendJson(res, JsonUtil.message("Account created"));
