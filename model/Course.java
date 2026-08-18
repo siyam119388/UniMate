@@ -10,7 +10,7 @@ public class Course {
     private String difficulty;
     private String description;
     private int instructorId;
-    private String instructorName;
+    private String instructorName;//
     private int enrolledCount;
 
     public int getCourseId() { return courseId; }
