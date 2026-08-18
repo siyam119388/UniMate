@@ -9,7 +9,7 @@ public class MarketItem {
     private double price;
     private String itemCondition;
     private String pickupPoint;
-    private String status;       // PENDING, LIVE, SOLD
+    private String status;       // PENDING, LIVE, SOLD//
     private int sellerId;
     private String sellerName;
 
