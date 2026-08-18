@@ -4,7 +4,7 @@ public abstract class User {
 
     private int userId;
     private String name;
-    private String email;
+    private String email;//
     private String passwordHash;
     private String university;
     private String department;
