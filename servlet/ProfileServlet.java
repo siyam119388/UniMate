@@ -11,7 +11,7 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
-/** Everything the profile screen needs, in one call. */
+/** Everything the profile screen needs, in one call. *///
 @WebServlet("/profile")
 public class ProfileServlet extends BaseServlet {
 
