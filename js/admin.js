@@ -5,7 +5,7 @@ async function loadAdmin() {
     const d = await API.get(api('admin'));
 
     document.getElementById('totalUsers').textContent   = d.totalUsers;
-    document.getElementById('pendingCount').textContent = d.pendingUsers.length;
+    document.getElementById('pendingCount').textContent = d.pendingUsers.length;/
     document.getElementById('itemCount').textContent    = d.pendingItems.length;/
 
     const users = document.getElementById('pendingUsers');
