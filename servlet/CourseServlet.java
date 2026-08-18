@@ -9,7 +9,7 @@ import com.unimate.util.JsonUtil;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.*;
 import java.io.IOException;
-
+//
 @WebServlet("/courses")
 public class CourseServlet extends BaseServlet {
 
