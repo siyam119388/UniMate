@@ -7,7 +7,7 @@ async function loadAdmin() {
     document.getElementById('totalUsers').textContent   = d.totalUsers;
     document.getElementById('pendingCount').textContent = d.pendingUsers.length;/
     document.getElementById('itemCount').textContent    = d.pendingItems.length;//
-
+//
     const users = document.getElementById('pendingUsers');
     users.innerHTML = d.pendingUsers.length
       ? d.pendingUsers.map(u => `
