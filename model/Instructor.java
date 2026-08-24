@@ -1,6 +1,6 @@
 package com.unimate.model;
 
-import com.unimate.util.Constants;
+import com.unimate.util.Constants;/
 
 public class Instructor extends User {
 
