@@ -9,7 +9,8 @@ public class DBConnection {
 
     private static final String URL  = "jdbc:mysql://localhost:3306/unimate";
     private static final String USER = "root";
-    private static final String PASS = "";     // put your MySQL password here
+    // Use UNIMATE_DB_PASSWORD when set; otherwise keep the existing local-PC default.
+    private static final String PASS = "root123";
 
     static {
         try {
